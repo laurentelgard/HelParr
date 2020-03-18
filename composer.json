@@ -1,0 +1,7 @@
+{
+    "name": "laurentelgard/HelParr",
+    "description": "Quick debug functions to help with PHP arrays",
+    "require": {
+        "php": "^4.0"
+    }
+}
