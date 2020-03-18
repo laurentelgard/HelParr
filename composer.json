@@ -1,6 +1,17 @@
 {
     "name": "laurentelgard/helparr",
-    "description": "Quick debug functions to help with PHP arrays",
+    "description": "Quick debug functions to help with PHP arrays",,
+    "keywords": ["debug", "arrays"],
+    "homepage": "http://github.com/laurentelgard/helparr",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurent-X. ELGARD",
+            "email": "laurent@dequaeris.fr",
+            "homepage": "https://dequaeris.fr"
+        }
+    ],
     "require": {
         "php": "^4.0"
     }
