@@ -1,5 +1,17 @@
-# HelParr
+# helparr
+
+[![Total Downloads](https://img.shields.io/packagist/dt/laurentelgard/helparr.svg)](https://packagist.org/packages/laurentelgard/helparr)
+[![Latest Stable Version](https://img.shields.io/packagist/v/laurentelgard/helparr.svg)](https://packagist.org/packages/laurentelgard/helparr)
+
 Quick debug functions to help with PHP arrays
+
+## Installation
+
+Install the latest version with
+
+```bash
+$ composer require laurentelgard/helparr
+```
 
 ## Basic Usage
 
@@ -12,7 +24,6 @@ p($_ENV);
 // prints array content and dies
 d($_ENV);
 ```
-
 ### Requirements
 
-- HelParr works with any PHP version >= 4.
+- helparr works with any PHP version >= 4.0
