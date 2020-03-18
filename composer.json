@@ -2,7 +2,7 @@
     "name": "laurentelgard/helparr",
     "description": "Quick debug functions to help with PHP arrays",
     "keywords": ["debug", "arrays"],
-    "homepage": "http://github.com/laurentelgard/helparr",
+    "homepage": "https://github.com/laurentelgard/helparr",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,9 +13,9 @@
         }
     ],
     "require": {
-        "php": ">4.0"
+        "php": ">=4.3"
     },
     "autoload": {
-        "files": ["helparr.php"]
+        "files": ["src/helparr.php"]
     }
 }
