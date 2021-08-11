@@ -19,10 +19,10 @@ $ composer require laurentelgard/helparr
 <?php
 
 // prints array content
-p($_ENV);
+p($_ENV, true);
 
 // prints array content and dies
-d($_ENV);
+d($_ENV, true);
 ```
 ### Requirements
 
