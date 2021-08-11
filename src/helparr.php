@@ -1,16 +1,22 @@
 <?php
 
-function p($array) {
+function p($array, $dump=false) {
 
 	echo '<pre>';
 	print_r($array);
-	echo '</pre><hr><pre>';
-	var_dump(debug_backtrace());
 	echo '</pre>';
+
+	if($dump==true) {
+
+		echo '<hr><pre>';
+		var_dump(debug_backtrace());
+		echo '</pre>';
+
+	}
 
 }
 
-function d($array) {
+function d($array, $dump=false) {
 
 	exit(p($array));
 
