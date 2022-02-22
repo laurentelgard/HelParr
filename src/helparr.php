@@ -2,15 +2,6 @@
 
 <?php
 
-function p($array) {
-
-
-
-}
-
-
-
-
 function p($array, $dump=false) {
 
 	if($dump==true) {
